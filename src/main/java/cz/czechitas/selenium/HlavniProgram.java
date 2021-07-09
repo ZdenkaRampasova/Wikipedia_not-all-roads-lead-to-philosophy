@@ -22,7 +22,6 @@ public class HlavniProgram {
 
             WebElement vyhledavaciPolicko = prohlizec.findElement(By.cssSelector("#searchInput"));
             vyhledavaciPolicko.sendKeys("Programovani");
-            //vyhledavaciPolicko.submit();
 
             WebElement vyhledavaciTlacitko = prohlizec.findElement(By.cssSelector("button.pure-button-primary-progressive"));
             vyhledavaciTlacitko.click();
